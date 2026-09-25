@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Notícias e novidades da comunidade estudantil publicadas no portal Conecta IFC."
+    />
+    <title>Notícias — Conecta IFC</title>
+    <link
+      rel="stylesheet"
+      href="./assets/css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/global.css"
+    />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a
+          class="brand"
+          href="./index.html"
+          aria-label="Página inicial do Conecta IFC"
+        >
+          <span class="brand__logo">CI</span>
+          <span>
+            <span class="brand__name">Conecta IFC</span>
+            <span class="brand__tagline">Projetos estudantis</span>
+          </span>
+        </a>
+
+        <nav
+          class="main-nav"
+          aria-label="Navegação principal"
+        >
+          <ul>
+            <li><a href="./index.html">Início</a></li>
+            <li>
+              <a
+                href="./noticias.html"
+                aria-current="page"
+                >Notícias</a
+              >
+            </li>
+            <li><a href="./eventos.html">Eventos</a></li>
+            <li><a href="./projetos.html">Projetos</a></li>
+            <li><a href="./contato.html">Sobre e contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1 class="page-title">Notícias</h1>
+      <p class="page-intro">
+        Acompanhe as conquistas, os anúncios e as histórias que movimentam a
+        comunidade estudantil ao longo do semestre.
+      </p>
+
+      <section aria-labelledby="destaque-title">
+        <h2
+          class="section-title"
+          id="destaque-title"
+        >
+          Destaque da semana
+        </h2>
+        <article class="featured">
+          <div class="featured__image">
+            <img
+              src="./assets/images/noticia-destaque.svg"
+              alt="Ilustração de estudantes comemorando premiação em feira de ciências"
+            />
+          </div>
+          <div class="featured__body">
+            <span class="card__tag">Conquista</span>
+            <h3>Estudantes vencem a feira regional de ciências</h3>
+            <p class="card__text">
+              A equipe do 3º ano conquistou o primeiro lugar com um projeto de
+              monitoramento da qualidade da água. O trabalho utilizou sensores
+              de baixo custo e um painel de acompanhamento em tempo real.
+            </p>
+            <p class="card__text">
+              O grupo agora se prepara para representar a escola na etapa
+              estadual, marcada para o próximo mês.
+            </p>
+            <p>
+              <time datetime="2026-09-22">22 de setembro de 2026</time>
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section aria-labelledby="recentes-title">
+        <h2
+          class="section-title"
+          id="recentes-title"
+        >
+          Publicações recentes
+        </h2>
+
+        <div class="card-grid">
+          <article class="card">
+            <img
+              class="card__image"
+              src="./assets/images/card-tecnologia.svg"
+              alt="Ilustração de código representando o clube de programação"
+            />
+            <div class="card__body">
+              <span class="card__tag">Tecnologia</span>
+              <h3 class="card__title">Novo clube de desenvolvimento de jogos</h3>
+              <p class="card__text">
+                As inscrições já estão abertas para os estudantes interessados em
+                criar seus próprios jogos digitais.
+              </p>
+              <p class="form-hint">
+                <time datetime="2026-09-18">18 de setembro de 2026</time>
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              class="card__image"
+              src="./assets/images/card-sustentabilidade.svg"
+              alt="Ilustração de folha representando o projeto da horta escolar"
+            />
+            <div class="card__body">
+              <span class="card__tag">Sustentabilidade</span>
+              <h3 class="card__title">Horta escolar amplia a produção</h3>
+              <p class="card__text">
+                O projeto passou a doar parte dos alimentos cultivados para
+                famílias do bairro vizinho à escola.
+              </p>
+              <p class="form-hint">
+                <time datetime="2026-09-15">15 de setembro de 2026</time>
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              class="card__image"
+              src="./assets/images/card-cultura.svg"
+              alt="Ilustração de arte representando o sarau cultural"
+            />
+            <div class="card__body">
+              <span class="card__tag">Cultura</span>
+              <h3 class="card__title">Sarau reúne poesia e música autoral</h3>
+              <p class="card__text">
+                Estudantes de diferentes turmas apresentaram produções próprias
+                na abertura da semana cultural.
+              </p>
+              <p class="form-hint">
+                <time datetime="2026-09-10">10 de setembro de 2026</time>
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              class="card__image"
+              src="./assets/images/card-robotica.svg"
+              alt="Ilustração de robô representando a equipe de robótica"
+            />
+            <div class="card__body">
+              <span class="card__tag">Robótica</span>
+              <h3 class="card__title">Equipe de robótica monta novo protótipo</h3>
+              <p class="card__text">
+                O grupo apresentou um braço robótico controlado por sensores em
+                uma demonstração aberta ao público.
+              </p>
+              <p class="form-hint">
+                <time datetime="2026-09-05">5 de setembro de 2026</time>
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-col">
+          <h3>Conecta IFC</h3>
+          <p>
+            Portal estudantil dedicado a reunir e divulgar os projetos da
+            comunidade escolar.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h3>Navegação</h3>
+          <ul>
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./noticias.html">Notícias</a></li>
+            <li><a href="./eventos.html">Eventos</a></li>
+            <li><a href="./projetos.html">Projetos</a></li>
+            <li><a href="./contato.html">Sobre e contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contato</h3>
+          <ul>
+            <li>conecta@escola.edu.br</li>
+            <li>(47) 3000-0000</li>
+            <li>Sala dos Estudantes, Bloco C</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>
+          Projeto acadêmico desenvolvido na disciplina de Desenvolvimento Web.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
