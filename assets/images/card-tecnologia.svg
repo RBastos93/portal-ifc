@@ -1,0 +1,14 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 400 260"
+  role="img"
+  aria-label="Ilustração representando tecnologia e programação"
+>
+  <rect width="400" height="260" fill="#155c39" />
+  <rect x="90" y="70" width="220" height="130" rx="10" fill="#0e3d26" />
+  <rect x="105" y="90" width="120" height="12" rx="6" fill="#f2a900" />
+  <rect x="105" y="115" width="180" height="10" rx="5" fill="#e6f4ec" />
+  <rect x="105" y="135" width="150" height="10" rx="5" fill="#e6f4ec" />
+  <rect x="105" y="155" width="90" height="10" rx="5" fill="#f2a900" />
+  <rect x="160" y="200" width="80" height="14" rx="4" fill="#0e3d26" />
+</svg>

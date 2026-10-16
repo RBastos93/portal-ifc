@@ -1,0 +1,13 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 400 260"
+  role="img"
+  aria-label="Ilustração representando arte e cultura"
+>
+  <rect width="400" height="260" fill="#c98a00" />
+  <rect x="120" y="70" width="160" height="120" rx="10" fill="#fff8e6" />
+  <circle cx="165" cy="115" r="18" fill="#f2a900" />
+  <path d="M135 175 L185 125 L235 175 Z" fill="#1f7a4d" />
+  <path d="M200 175 L240 140 L265 175 Z" fill="#155c39" />
+  <rect x="150" y="200" width="100" height="12" rx="6" fill="#155c39" />
+</svg>

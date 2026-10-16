@@ -1,0 +1,14 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 600 400"
+  role="img"
+  aria-label="Ilustração de estudantes recebendo premiação em feira de projetos"
+>
+  <rect width="600" height="400" fill="#1f7a4d" />
+  <rect x="80" y="230" width="440" height="120" rx="12" fill="#155c39" />
+  <circle cx="300" cy="150" r="60" fill="#f2a900" />
+  <path d="M300 120 L312 148 L342 148 L318 166 L328 196 L300 178 L272 196 L282 166 L258 148 L288 148 Z" fill="#fff8e6" />
+  <circle cx="180" cy="270" r="30" fill="#e6f4ec" />
+  <circle cx="420" cy="270" r="30" fill="#e6f4ec" />
+  <circle cx="300" cy="290" r="34" fill="#e6f4ec" />
+</svg>

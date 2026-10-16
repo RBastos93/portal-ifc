@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Agenda de eventos, oficinas e feiras da comunidade estudantil no portal Conecta IFC."
+    />
+    <title>Eventos — Conecta IFC</title>
+    <link
+      rel="stylesheet"
+      href="./assets/css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/global.css"
+    />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a
+          class="brand"
+          href="./index.html"
+          aria-label="Página inicial do Conecta IFC"
+        >
+          <span class="brand__logo">CI</span>
+          <span>
+            <span class="brand__name">Conecta IFC</span>
+            <span class="brand__tagline">Projetos estudantis</span>
+          </span>
+        </a>
+
+        <nav
+          class="main-nav"
+          aria-label="Navegação principal"
+        >
+          <ul>
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./noticias.html">Notícias</a></li>
+            <li>
+              <a
+                href="./eventos.html"
+                aria-current="page"
+                >Eventos</a
+              >
+            </li>
+            <li><a href="./projetos.html">Projetos</a></li>
+            <li><a href="./contato.html">Sobre e contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1 class="page-title">Eventos</h1>
+      <p class="page-intro">
+        Confira a agenda de feiras, oficinas e encontros organizados pela
+        comunidade estudantil. Todos os eventos são abertos aos estudantes da
+        escola.
+      </p>
+
+      <section aria-labelledby="proximos-title">
+        <h2
+          class="section-title"
+          id="proximos-title"
+        >
+          Próximos eventos
+        </h2>
+
+        <ul class="event-list">
+          <li class="event-item">
+            <div class="event-item__date">
+              <span class="day">12</span>
+              <span class="month">Out</span>
+            </div>
+            <div class="event-item__info">
+              <h3>Feira de Projetos Estudantis</h3>
+              <p class="card__text">
+                Exposição aberta com os principais projetos desenvolvidos no
+                semestre. Cada equipe apresenta seu trabalho ao público.
+              </p>
+              <p class="event-item__meta">
+                Ginásio da escola · 14h às 18h · Entrada gratuita
+              </p>
+            </div>
+          </li>
+
+          <li class="event-item">
+            <div class="event-item__date">
+              <span class="day">19</span>
+              <span class="month">Out</span>
+            </div>
+            <div class="event-item__info">
+              <h3>Oficina de introdução ao Git</h3>
+              <p class="card__text">
+                Aprenda a versionar seus projetos e a colaborar em equipe usando
+                Git e GitHub. Atividade prática para iniciantes.
+              </p>
+              <p class="event-item__meta">
+                Laboratório de informática · 15h às 17h · Vagas limitadas
+              </p>
+            </div>
+          </li>
+
+          <li class="event-item">
+            <div class="event-item__date">
+              <span class="day">26</span>
+              <span class="month">Out</span>
+            </div>
+            <div class="event-item__info">
+              <h3>Sarau cultural de primavera</h3>
+              <p class="card__text">
+                Apresentações de música, poesia e teatro produzidas pelos
+                estudantes das turmas participantes.
+              </p>
+              <p class="event-item__meta">
+                Auditório · 19h · Aberto à comunidade
+              </p>
+            </div>
+          </li>
+
+          <li class="event-item">
+            <div class="event-item__date">
+              <span class="day">09</span>
+              <span class="month">Nov</span>
+            </div>
+            <div class="event-item__info">
+              <h3>Mostra de robótica e automação</h3>
+              <p class="card__text">
+                Demonstração dos protótipos criados pelo clube de robótica, com
+                desafios interativos para os visitantes.
+              </p>
+              <p class="event-item__meta">
+                Pátio coberto · 14h às 17h · Entrada gratuita
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section
+        class="layout-split"
+        aria-labelledby="organize-title"
+      >
+        <div class="layout-split__main">
+          <h2
+            class="section-title"
+            id="organize-title"
+          >
+            Quer organizar um evento?
+          </h2>
+          <p>
+            A equipe do Conecta IFC ajuda estudantes e grupos a divulgar seus
+            próprios eventos. Para incluir uma atividade na agenda, é preciso
+            informar:
+          </p>
+          <ol>
+            <li>nome e descrição do evento;</li>
+            <li>data, horário e local;</li>
+            <li>público esperado;</li>
+            <li>nome do responsável pela organização.</li>
+          </ol>
+          <p>
+            <a href="./contato.html">Fale com a equipe do portal</a>
+          </p>
+        </div>
+
+        <aside
+          class="layout-split__aside"
+          aria-labelledby="dicas-title"
+        >
+          <div class="sidebar-box">
+            <h3 id="dicas-title">Dicas para participar</h3>
+            <ul>
+              <li>Chegue com alguns minutos de antecedência.</li>
+              <li>Traga um caderno para anotações nas oficinas.</li>
+              <li>Compartilhe os eventos com os colegas.</li>
+            </ul>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-col">
+          <h3>Conecta IFC</h3>
+          <p>
+            Portal estudantil dedicado a reunir e divulgar os projetos da
+            comunidade escolar.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h3>Navegação</h3>
+          <ul>
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./noticias.html">Notícias</a></li>
+            <li><a href="./eventos.html">Eventos</a></li>
+            <li><a href="./projetos.html">Projetos</a></li>
+            <li><a href="./contato.html">Sobre e contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contato</h3>
+          <ul>
+            <li>conecta@escola.edu.br</li>
+            <li>(47) 3000-0000</li>
+            <li>Sala dos Estudantes, Bloco C</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>
+          Projeto acadêmico desenvolvido na disciplina de Desenvolvimento Web.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

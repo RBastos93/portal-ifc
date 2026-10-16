@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Conheça o portal Conecta IFC, sua equipe e envie sua mensagem pelo formulário de contato."
+    />
+    <title>Sobre e contato — Conecta IFC</title>
+    <link
+      rel="stylesheet"
+      href="./assets/css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/global.css"
+    />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a
+          class="brand"
+          href="./index.html"
+          aria-label="Página inicial do Conecta IFC"
+        >
+          <span class="brand__logo">CI</span>
+          <span>
+            <span class="brand__name">Conecta IFC</span>
+            <span class="brand__tagline">Projetos estudantis</span>
+          </span>
+        </a>
+
+        <nav
+          class="main-nav"
+          aria-label="Navegação principal"
+        >
+          <ul>
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./noticias.html">Notícias</a></li>
+            <li><a href="./eventos.html">Eventos</a></li>
+            <li><a href="./projetos.html">Projetos</a></li>
+            <li>
+              <a
+                href="./contato.html"
+                aria-current="page"
+                >Sobre e contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1 class="page-title">Sobre e contato</h1>
+      <p class="page-intro">
+        Saiba mais sobre o Conecta IFC e fale com a equipe responsável pelo
+        portal. Sua mensagem ajuda a construir um espaço cada vez melhor para os
+        estudantes.
+      </p>
+
+      <section aria-labelledby="sobre-title">
+        <h2
+          class="section-title"
+          id="sobre-title"
+        >
+          Sobre o portal
+        </h2>
+        <p>
+          O Conecta IFC nasceu da ideia de reunir, em um único lugar, tudo o que
+          os estudantes produzem na escola. Muitos projetos incríveis acabavam
+          esquecidos após as apresentações, e faltava um espaço para
+          divulgá-los, guardar sua memória e inspirar novas turmas.
+        </p>
+        <p>
+          O portal é mantido por estudantes voluntários e organiza o conteúdo em
+          quatro grandes áreas: tecnologia, sustentabilidade, robótica e
+          cultura. A proposta é dar visibilidade aos trabalhos e fortalecer a
+          colaboração entre as turmas.
+        </p>
+      </section>
+
+      <section
+        class="layout-split"
+        aria-labelledby="contato-title"
+      >
+        <div class="layout-split__main">
+          <h2
+            class="section-title"
+            id="contato-title"
+          >
+            Envie uma mensagem
+          </h2>
+          <form
+            class="contact-form"
+            action="#"
+            method="post"
+            novalidate
+          >
+            <div class="form-field">
+              <label for="nome">Nome completo</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Digite seu nome"
+                required
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="seu.email@escola.edu.br"
+                required
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="assunto">Assunto</label>
+              <select
+                id="assunto"
+                name="assunto"
+              >
+                <option value="projeto">Quero divulgar um projeto</option>
+                <option value="evento">Quero divulgar um evento</option>
+                <option value="duvida">Tenho uma dúvida</option>
+                <option value="sugestao">Tenho uma sugestão</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="mensagem">Mensagem</label>
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                placeholder="Escreva sua mensagem aqui..."
+                required
+              ></textarea>
+              <span class="form-hint">
+                Conte um pouco sobre o seu projeto, evento ou dúvida.
+              </span>
+            </div>
+
+            <button
+              class="button"
+              type="submit"
+            >
+              Enviar mensagem
+            </button>
+          </form>
+        </div>
+
+        <aside
+          class="layout-split__aside"
+          aria-labelledby="canais-title"
+        >
+          <div class="sidebar-box">
+            <h3 id="canais-title">Canais de atendimento</h3>
+            <ul class="info-list">
+              <li>
+                <span>
+                  <strong>E-mail</strong>
+                  conecta@escola.edu.br
+                </span>
+              </li>
+              <li>
+                <span>
+                  <strong>Telefone</strong>
+                  (47) 3000-0000
+                </span>
+              </li>
+              <li>
+                <span>
+                  <strong>Endereço</strong>
+                  Sala dos Estudantes, Bloco C
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-box">
+            <h3>Horário de atendimento</h3>
+            <ul>
+              <li>Segunda a sexta</li>
+              <li>Das 8h às 17h</li>
+            </ul>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-col">
+          <h3>Conecta IFC</h3>
+          <p>
+            Portal estudantil dedicado a reunir e divulgar os projetos da
+            comunidade escolar.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h3>Navegação</h3>
+          <ul>
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./noticias.html">Notícias</a></li>
+            <li><a href="./eventos.html">Eventos</a></li>
+            <li><a href="./projetos.html">Projetos</a></li>
+            <li><a href="./contato.html">Sobre e contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contato</h3>
+          <ul>
+            <li>conecta@escola.edu.br</li>
+            <li>(47) 3000-0000</li>
+            <li>Sala dos Estudantes, Bloco C</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>
+          Projeto acadêmico desenvolvido na disciplina de Desenvolvimento Web.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
