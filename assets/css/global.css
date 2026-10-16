@@ -117,23 +117,22 @@ img {
 .brand__logo {
   display: grid;
   place-items: center;
-  width: 2.75rem;
-  height: 2.75rem;
-  background-color: var(--color-accent);
-  color: var(--color-primary-dark);
+  width: 4rem;
+  height: 3em;
   font-family: var(--font-heading);
   font-weight: 700;
   font-size: 1.25rem;
-  border-radius: 50%;
 }
 
 .brand__name {
+  font-family: sans-serif;
   margin: 0;
   color: #ffffff;
   font-size: 1.4rem;
 }
 
 .brand__tagline {
+  font-family: sans-serif;
   margin: 0;
   font-size: 0.8rem;
   color: var(--color-primary-light);
